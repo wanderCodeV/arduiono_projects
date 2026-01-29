@@ -58,7 +58,7 @@ You can display the custom character in two ways:
 #### Animation
 You can modify any custom character while the program is running. This method is useful for creating simple animations. For example, change loop() in the code sample above to slowly reveal the heart icon, line-by-line:
 
-```
+```cpp
 void loop() {
   uint8_t heart2[8] = {0};
   for (int i = 0; i < 8; i++) {
