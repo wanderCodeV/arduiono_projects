@@ -2,7 +2,7 @@
 
 LCD_I2C lcd(0x27);
 
-uint8_t heart[8] = {
+byte heart[8] = {
   0b00000,
   0b01010,
   0b11111,
@@ -20,4 +20,12 @@ void setup() {
   lcd.print("  I \x03 Arduino");
 }
 
-void loop() { }
+void loop() {
+  byte heart2[8] = {0};
+  for (int i = 0; i < 8; i++) {
+    heart2[i] = heart[i];
+    lcd.createChar(3, heart2);
+    delay(100);
+  }
+  delay(500);
+}

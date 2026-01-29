@@ -37,14 +37,14 @@ You can define **custom characters** using the `createChar()` method of the `LCD
 
 ```cpp
 byte heart[8] = {
-  B00000,
-  B01010,
-  B11111,
-  B11111,
-  B11111,
-  B01110,
-  B00100,
-  B00000
+  0b00000,
+  0b01010,
+  0b11111,
+  0b11111,
+  0b11111,
+  0b01110,
+  0b00100,
+  0b00000,
 };
 
 lcd.createChar(0, heart); 
@@ -54,3 +54,18 @@ lcd.createChar(0, heart);
 You can display the custom character in two ways:
 - Using write(): `lcd.write((uint8_t)0);`
 - Using a C string escape sequence: `lcd.print("\x00");`
+
+#### Animation
+You can modify any custom character while the program is running. This method is useful for creating simple animations. For example, change loop() in the code sample above to slowly reveal the heart icon, line-by-line:
+
+```
+void loop() {
+  uint8_t heart2[8] = {0};
+  for (int i = 0; i < 8; i++) {
+    heart2[i] = heart[i];
+    lcd.createChar(3, heart2);
+    delay(100);
+  }
+  delay(500);
+}
+```
