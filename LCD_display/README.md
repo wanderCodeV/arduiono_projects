@@ -8,7 +8,7 @@ It also shows how to create and display **custom characters** using the `LCD_I2C
 ### LCD1602 I2C Module
 The LCD1602 with I2C adapter reduces the number of pins required to control the display, making wiring simpler and cleaner.
 
-<img src="img/LCD1602_I2C.jpg" alt="LCD1602 I2C" width="300">
+<img src="img/LCD1602_I2C.jpg" alt="LCD1602 I2C" width="500">
 
 ### Wiring Schema
 
