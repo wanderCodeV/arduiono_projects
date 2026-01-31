@@ -34,7 +34,7 @@ The player must remember and repeat a randomly generated sequence of LEDs.
 
 The wiring diagram for the project is shown below:
 
-![Schematic](img/shema.png)
+![Schematic](img/schema.png)
 
 ---
 
