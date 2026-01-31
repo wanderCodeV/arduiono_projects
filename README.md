@@ -5,25 +5,25 @@ Below is a list of all hardware components used in the project.
 
 | Image | Component |
 |------|----------|
-| ![Arduino Uno](img/arduino_uno.png) | **Arduino Uno**  
+| <img src="img/arduino_uno.png" width="120"/> | **Arduino Uno**  
 Main microcontroller board used to control all components and run the project logic. |
-| ![LEDs](img/leds.png) | **LEDs (Red, Blue, Green)**  
+| <img src="img/leds.png" width="120"/> | **LEDs (Red, Blue, Green)**  
 Used as visual indicators for status, signals, or debugging. |
-| ![Buttons](img/buttons.png) | **Buttons**  
+| <img src="img/buttons.png" width="120"/> | **Buttons**  
 Provide digital input for user interaction and control actions. |
-| ![Buzzer](img/buzzer.png) | **Buzzer**  
+| <img src="img/buzzer.png" width="120"/> | **Buzzer**  
 Generates sound alerts, notifications, or feedback. |
-| ![8x8 Matrix 1588BS](img/matrix_1588bs.jpg) | **8×8 LED Matrix (1588BS)**  
+| <img src="img/matrix_1588bs.jpg" width="120"/> | **8×8 LED Matrix (1588BS)**  
 Common-cathode LED matrix used to display characters, icons, and animations via row/column scanning. |
-| ![Keypad](LCD_display/img/LCD1602_I2C.jpg) | **Keypad (QAPASS)**  
+| <img src="LCD_display/img/LCD1602_I2C.jpg" width="120"/> | **Keypad (QAPASS)**  
 Used for numeric or character input, such as passwords or menu navigation. |
-| ![RTC](img/rtc_module.jpg) | **Real-Time Clock (RTC) Module**  
+| <img src="img/rtc_module.jpg" width="120"/> | **Real-Time Clock (RTC) Module**  
 Keeps track of time and date even when the system is powered off. |
-| ![Stepper Motor 28BYJ-48](img/28byj48.png) | **28BYJ-48 Geared Stepper Motor (12V) with Driver Module**  
+| <img src="img/28byj48.png" width="120"/> | **28BYJ-48 Geared Stepper Motor (12V) with Driver Module**  
 Stepper motor with built-in gearbox, providing precise rotational control, supplied with a dedicated control/driver board. |
-| ![Joystick](img/joystick_hw504.jpg) | **Joystick HW-504**  
+| <img src="img/joystick_hw504.jpg" width="120"/> | **Joystick HW-504**  
 Provides analog input for directional control (X/Y axis + button). |
-| ![Microphone](img/microphone.png) | **Microphone Module (Hoya)**  
+| <img src="img/microphone.png" width="120"/> | **Microphone Module (Hoya)**  
 Detects sound levels or audio input. |
-| ![Button Module](img/button_h85_55.jpg) | **Button Module H85/55**  
+| <img src="img/button_h85_55.jpg" width="120"/> | **Button Module H85/55**  
 Dedicated button module for triggering actions or events. |
