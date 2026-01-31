@@ -64,7 +64,7 @@ Buttons use **INPUT_PULLUP**, so they are active LOW.
 | SDA | A4 |
 | SCL | A5 |
 
-I2C address used: `0x27` (may vary depending on module).
+I2C address used: `0x27` .
 
 ---
 
