@@ -79,3 +79,4 @@ During gameplay, the LCD updates the number of inputs entered by the player and 
 
 ---
 
+🔗 **Simulation:** [Run on Tinkercad](https://www.tinkercad.com/things/a6C7bFMnvHc-memory-game?sharecode=8fpxdblAuA6q6IBiCbCsU9xwYdASzA2qSZeMNCnPMzo)
