@@ -10,7 +10,7 @@ Below is a list of all hardware components used in the project.
 | <img src="img/buttons.png" width="480"/> | **Buttons**<br>Provide digital input for user interaction and control actions. |
 | <img src="img/buzzer.png" width="480"/> | **Buzzer**<br>Generates sound alerts, notifications, or feedback. |
 | <img src="LCD_display/img/LCD1602_I2C.jpg" width="480"/> | **LCD 1602 Display (I2C / QAPASS)**<br>Used to display text, menu options, numerical outputs, or system status screens. |
-| <img src="img/display_3461bs1.png" width="480"/> | **4-Digit 7-Segment Display (3461BS-1)**<br>Common-anode multiplexed display used to output numbers, dynamic decimal points, and status messages. |
+| <img src="img/display_3461bs1.jpg" width="480"/> | **4-Digit 7-Segment Display (3461BS-1)**<br>Common-anode multiplexed display used to output numbers, dynamic decimal points, and status messages. |
 | <img src="img/74hc595.png" width="480"/> | **74HC595 Shift Register**<br>8-bit serial-in parallel-out shift register used to drive display segments using minimal microcontroller pins. |
 | <img src="img/keypad_hw834.jpg" width="480"/> | **4x4 Matrix Keypad (HW-834)**<br>Provides 16-button input layout for numerical entries, decimal points, and mathematical operations. |
 | <img src="img/matrix_1588bs.jpg" width="480"/> | **8×8 LED Matrix (1588BS)**<br>Common-cathode LED matrix used to display characters, icons, and animations via row/column scanning. |
